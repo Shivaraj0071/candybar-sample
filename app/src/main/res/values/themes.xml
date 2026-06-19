@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="CandyBar.Theme.App.DayNight" parent="CandyBar.Theme.Base">
-        <item name="cb_colorPrimary">#35C164</item>
-        <item name="cb_colorPrimaryDark">#4CAF50</item>
-        <item name="cb_colorAccent">#1BB96F</item>
+        <item name="cb_colorPrimary">#121212</item>
+        <item name="cb_colorPrimaryDark">#000000</item>
+        <item name="cb_colorAccent">#FFD700</item>
         <!-- Fallback status bar color for Android 9 and below -->
         <item name="android:statusBarColor">?attr/cb_colorPrimary</item>
 
         <!-- Navigation Bar -->
-        <item name="cb_navigationBar">#1A73E9</item>
+        <item name="cb_navigationBar">#121212</item>
 
         <!-- Splash Screen -->
-        <item name="cb_splashColor">#FFF</item>
+        <item name="cb_splashColor">#121212</item>
 
         <!-- Navigation View -->
         <item name="cb_navigationViewHeaderBackground">#00000000</item>
-        <item name="cb_navigationViewTitle">#FFFFFF</item>
-        <item name="cb_navigationViewTitleBack">#33000000</item>
+        <item name="cb_navigationViewTitle">#FFD700</item>
+        <item name="cb_navigationViewTitleBack">#99000000</item>
 
-        <item name="cb_navigationViewText">#484848</item>
-        <item name="cb_navigationViewTextSelected">#1BB96F</item>
-        <item name="cb_navigationViewSelectedBackground">#2A1BB96F</item>
-        <item name="cb_navigationViewRippleColor">#25000000</item>
+        <item name="cb_navigationViewText">#FFFFFF</item>
+        <item name="cb_navigationViewTextSelected">#FFD700</item>
+        <item name="cb_navigationViewSelectedBackground">#2AFFD700</item>
+        <item name="cb_navigationViewRippleColor">#25FFFFFF</item>
 
         <!-- Swipe Refresh -->
-        <item name="cb_swipeRefresh">#1BB96F</item>
+        <item name="cb_swipeRefresh">#FFD700</item>
 
         <!-- Tap Intro -->
         <item name="cb_tapIntroTitle">?cb_mainBackground</item>
@@ -33,27 +33,27 @@
         <item name="cb_tapIntroCircleOuter">?cb_secondaryText</item>
 
         <!-- Toolbar -->
-        <item name="cb_toolbarIcon">#FFFFFF</item>
+        <item name="cb_toolbarIcon">#FFD700</item>
 
         <!-- Tab -->
-        <item name="cb_tabIndicator">#FFF</item>
+        <item name="cb_tabIndicator">#FFD700</item>
         <item name="cb_tabText">#99FFFFFF</item>
-        <item name="cb_tabTextSelected">#FFF</item>
+        <item name="cb_tabTextSelected">#FFD700</item>
 
         <!-- Card -->
-        <item name="cb_cardBackground">#FFFFFF</item>
-        <item name="cb_cardStroke">#11000000</item>
+        <item name="cb_cardBackground">#1E1E1E</item>
+        <item name="cb_cardStroke">#FFD700</item>
 
         <!-- Ripple -->
-        <item name="cb_rippleColor">#1BB96F</item>
-        <item name="cb_rippleAccent">#1BB96F</item>
+        <item name="cb_rippleColor">#FFD700</item>
+        <item name="cb_rippleAccent">#FFD700</item>
 
         <!-- Attributes -->
-        <item name="cb_mainBackground">#FFFFFF</item>
-        <item name="cb_primaryText">#484848</item>
-        <item name="cb_secondaryText">#777777</item>
+        <item name="cb_mainBackground">#121212</item>
+        <item name="cb_primaryText">#FFFFFF</item>
+        <item name="cb_secondaryText">#B3B3B3</item>
 
-        <item name="cb_dividerList">#FFFFFF</item>
+        <item name="cb_dividerList">#121212</item>
 
         <!-- Wallpaper Preview -->
         <item name="cb_wallpaperStatusBar">#66000000</item>

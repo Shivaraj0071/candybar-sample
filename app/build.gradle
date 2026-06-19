@@ -6,7 +6,7 @@ android {
     namespace 'com.candybar.sample'
 
     defaultConfig {
-        applicationId 'com.candybar.sample'
+        applicationId 'com.pikachu.dark.icons'
         minSdkVersion rootProject.ext.MinSdk
         targetSdkVersion rootProject.ext.TargetSdk
         versionCode 1
@@ -23,6 +23,7 @@ android {
         release {
             debuggable false
             minifyEnabled true
+            crunchPngs false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }

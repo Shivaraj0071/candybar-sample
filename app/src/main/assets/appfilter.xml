@@ -2,22 +2,14 @@
 <resources>
 
     <iconback img1="iconback" />
-    <iconmask img1="iconmask" />
-    <scale factor="0.64" />
+    <iconupon img1="iconupon" />
+    <scale factor="0.65" />
 
-    <!-- Nova Launcher Stuff -->
-    <item component=":BROWSER" drawable="browser" />
-    <item component=":CALCULATOR" drawable="calculator" />
-    <item component=":CALENDAR" drawable="calendar" />
-    <item component=":CAMERA" drawable="camera" />
-    <item component=":CLOCK" drawable="clock" />
-    <item component=":CONTACTS" drawable="contacts" />
-    <item component=":EMAIL" drawable="email" />
-    <item component=":GALLERY" drawable="gallery" />
-    <item component=":PHONE" drawable="phone" />
-    <item component=":SMS" drawable="messaging" />
-    <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="app_drawer" />
 
-    <item component="ComponentInfo{some.app.sample/some.app.sample.MainActivity}" drawable="some_app" />
-
+    <!-- Pikachu Dark Custom Icons -->
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="ic_chrome" />
+    <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="ic_phone" />
+    <!-- Nova Launcher Fallback -->
+    <item component=":BROWSER" drawable="ic_chrome" />
+    <item component=":PHONE" drawable="ic_phone" />
 </resources>

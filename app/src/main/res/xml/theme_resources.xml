@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Theme version="1">
+    <IconBack name="iconback"/>
+    <IconMask name="iconmask"/>
+    <IconUpon name="iconupon"/>
+    <Scale factor="0.65"/>
 
     <!-- FOR LG HOME -->
 
